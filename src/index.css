@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Epilogue", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --color-surface: #fff8f9;
+  --color-surface-dim: #fbcde9;
+  --color-surface-bright: #fff8f9;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff0f6;
+  --color-surface-container: #ffe8f3;
+  --color-surface-container-high: #ffe0f1;
+  --color-surface-container-highest: #ffd7ee;
+  --color-on-surface: #2d1226;
+  --color-on-surface-variant: #584048;
+  --color-inverse-surface: #45263c;
+  --color-inverse-on-surface: #ffecf5;
+  --color-outline: #8b7078;
+  --color-outline-variant: #dfbec8;
+  --color-surface-tint: #b7046c;
+  --color-primary: #b7046c;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #ff4fa3;
+  --color-on-primary-container: #5d0034;
+  --color-inverse-primary: #ffb0cc;
+  --color-secondary: #755664;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fed5e6;
+  --color-on-secondary-container: #795a68;
+  --color-tertiary: #be0037;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #ff596d;
+  --color-on-tertiary-container: #610017;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #ffd9e4;
+  --color-primary-fixed-dim: #ffb0cc;
+  --color-secondary-fixed: #ffd8e8;
+  --color-secondary-fixed-dim: #e3bccc;
+  --color-tertiary-fixed: #ffdada;
+  --color-tertiary-fixed-dim: #ffb3b6;
+  --color-background: #fff8f9;
+  --color-on-background: #2d1226;
+  --color-surface-variant: #ffd7ee;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #fff8f9;
+  color: #2d1226;
+  overscroll-behavior: none;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbar hiding for clean app experience */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

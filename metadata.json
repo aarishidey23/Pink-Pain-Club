@@ -1,0 +1,7 @@
+{
+  "name": "Pink Pain Club",
+  "description": "Empowering period and cramp relief sanctuary with instant comfort protocols, cycle intelligence, symptom tracking, and discreet support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
